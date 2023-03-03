@@ -20,21 +20,21 @@ class _CnicCardState extends State<CnicCard> {
     height: 200,
       // width: MediaQuery.of(context).size.width,
       decoration:
-      BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
+      const BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
       child: Column(
         children: [
           Padding(
             padding: const EdgeInsets.only(top: 25.0, left: 8),
             child: Row(
               children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
+                const Padding(
+                  padding: EdgeInsets.all(8.0),
                   child: Icon(
                     Icons.arrow_back,
                     color: Colors.white,
                   ),
                 ),
-                Text(
+                const Text(
                   "Back",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.white,
@@ -57,10 +57,10 @@ class _CnicCardState extends State<CnicCard> {
                   // mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       height: 30,
                     ),
-                    Center(
+                    const Center(
                       child: Text("CNIC Details",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
@@ -68,11 +68,11 @@ class _CnicCardState extends State<CnicCard> {
                             fontSize: 16
                         ),),
                     ),
-SizedBox(
+const SizedBox(
   height: 30,
 ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 19.0),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 19.0),
                       child: Text("CNIC Card photo",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
@@ -80,7 +80,7 @@ SizedBox(
                             fontSize: 17
                         ),),
                     ),
-SizedBox(
+const SizedBox(
   height: 30,
 ),
 
@@ -97,11 +97,11 @@ SizedBox(
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 24.0),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 24.0),
                       child: Text("Click here to upload CNIC Card  ",
                       style: TextStyle(
                         color: Colors.grey,
@@ -110,14 +110,14 @@ SizedBox(
                       ),
                       ),
 ),
-                    SizedBox(
+                    const SizedBox(
                       height: 40,
                     ),
                     Padding(
                       padding: const EdgeInsets.only(left: 88.0,right: 88,),
                       child: Container(
                         height: 42,
-                        child: Center(
+                        child: const Center(
                           child: Text("SAVE",style: TextStyle(
                               color: Colors.white,
                               fontSize: 14,

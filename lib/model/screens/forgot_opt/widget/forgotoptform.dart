@@ -26,7 +26,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       color: Colors.grey.withOpacity(0.2), //color of shadow
                       spreadRadius: 5, //spread radius
                       blurRadius: 7, // blur radius
-                      offset: Offset(0, 2), // changes position of shadow
+                      offset: const Offset(0, 2), // changes position of shadow
                       //first paramerter of offset is left-right
                       //second parameter is top to down
                     ),
@@ -41,7 +41,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       FocusScope.of(context).nextFocus();
                     }
                   },
-                  decoration: InputDecoration(hintText: "0"),
+                  decoration: const InputDecoration(hintText: "0"),
                   style: Theme.of(context).textTheme.headline6,
                   keyboardType: TextInputType.number,
                   textAlign: TextAlign.center,
@@ -60,7 +60,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       color: Colors.grey.withOpacity(0.2), //color of shadow
                       spreadRadius: 5, //spread radius
                       blurRadius: 7, // blur radius
-                      offset: Offset(0, 2), // changes position of shadow
+                      offset: const Offset(0, 2), // changes position of shadow
                       //first paramerter of offset is left-right
                       //second parameter is top to down
                     ),
@@ -75,7 +75,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       FocusScope.of(context).nextFocus();
                     }
                   },
-                  decoration: InputDecoration(hintText: "0"),
+                  decoration: const InputDecoration(hintText: "0"),
                   style: Theme.of(context).textTheme.headline6,
                   keyboardType: TextInputType.number,
                   textAlign: TextAlign.center,
@@ -94,7 +94,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       color: Colors.grey.withOpacity(0.2), //color of shadow
                       spreadRadius: 5, //spread radius
                       blurRadius: 7, // blur radius
-                      offset: Offset(0, 2), // changes position of shadow
+                      offset: const Offset(0, 2), // changes position of shadow
                       //first paramerter of offset is left-right
                       //second parameter is top to down
                     ),
@@ -109,7 +109,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       FocusScope.of(context).nextFocus();
                     }
                   },
-                  decoration: InputDecoration(hintText: "0"),
+                  decoration: const InputDecoration(hintText: "0"),
                   style: Theme.of(context).textTheme.headline6,
                   keyboardType: TextInputType.number,
                   textAlign: TextAlign.center,
@@ -128,7 +128,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       color: Colors.grey.withOpacity(0.2), //color of shadow
                       spreadRadius: 5, //spread radius
                       blurRadius: 7, // blur radius
-                      offset: Offset(0, 2), // changes position of shadow
+                      offset: const Offset(0, 2), // changes position of shadow
                       //first paramerter of offset is left-right
                       //second parameter is top to down
                     ),
@@ -143,7 +143,7 @@ class _ForgotOtpFormState extends State<ForgotOtpForm> {
                       FocusScope.of(context).nextFocus();
                     }
                   },
-                  decoration: InputDecoration(hintText: "0"),
+                  decoration: const InputDecoration(hintText: "0"),
                   style: Theme.of(context).textTheme.headline6,
                   keyboardType: TextInputType.number,
                   textAlign: TextAlign.center,

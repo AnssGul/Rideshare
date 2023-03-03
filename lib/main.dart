@@ -23,6 +23,7 @@ import 'model/screens/sign_up_close/sign_up_close.dart';
 import 'model/screens/signin_login/signin_login.dart';
 import 'model/screens/signup_doc/signup_doc.dart';
 import 'model/screens/signup_profile/signup_profile.dart';
+import 'model/screens/signup_ride_details/signup_ride_detail.dart';
 import 'model/screens/signup_terms/signup_term.dart';
 import 'model/screens/upload_selfie/upload_selfie.dart';
 import 'model/screens/vehical reg/vehical_reg.dart';
@@ -32,7 +33,7 @@ void main()=>runApp(
 
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home:SignUpPersonal(),
+    home:ChatContact(),
   )
 );
 

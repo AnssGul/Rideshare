@@ -23,21 +23,21 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
         height: 200,
         // width: MediaQuery.of(context).size.width,
         decoration:
-        BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
+        const BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
         child: Column(
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 25.0, left: 8),
               child: Row(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                  const Padding(
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.arrow_back,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     "WELCOME",
                     style: TextStyle(
                         fontWeight: FontWeight.bold, color: Colors.white,
@@ -50,8 +50,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
           ],
         ),
       ),
-          Padding(
-            padding: const EdgeInsets.only(left: 8.0,top: 15),
+          const Padding(
+            padding: EdgeInsets.only(left: 8.0,top: 15),
             child: Text("Phone Verifivation",style:
             TextStyle(
                 color: Colors.black,
@@ -59,8 +59,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
             )
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 8.0,top: 8),
+          const Padding(
+            padding: EdgeInsets.only(left: 8.0,top: 8),
             child: Text("Enter your OTP code",style:
             TextStyle(
                 color: Colors.black,
@@ -69,8 +69,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
             )
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 8.0,top: 2),
+          const Padding(
+            padding: EdgeInsets.only(left: 8.0,top: 2),
             child: Text("Enter the 4-digit code sent to you at",style:
             TextStyle(
                 color: Colors.black,
@@ -80,8 +80,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
           ),
           Row(
             children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 8.0),
+              const Padding(
+                padding: EdgeInsets.only(left: 8.0),
                 child: Text("+92 3249470845.",style:
                 TextStyle(
                     color: Colors.black,
@@ -89,8 +89,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                 )
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 8.0),
+              const Padding(
+                padding: EdgeInsets.only(left: 8.0),
                 child: Text("did you enter the correct",style:
                 TextStyle(
                     color: Colors.green,
@@ -102,8 +102,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
               ),
             ],
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 8.0),
+          const Padding(
+            padding: EdgeInsets.only(left: 8.0),
             child: Text("number?",style:
             TextStyle(
                 color: Colors.green,
@@ -129,7 +129,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         color: Colors.grey.withOpacity(0.2), //color of shadow
                         spreadRadius: 5, //spread radius
                         blurRadius: 7, // blur radius
-                        offset: Offset(0, 2), // changes position of shadow
+                        offset: const Offset(0, 2), // changes position of shadow
                         //first paramerter of offset is left-right
                         //second parameter is top to down
                       ),
@@ -144,7 +144,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         FocusScope.of(context).nextFocus();
                       }
                     },
-                    decoration: InputDecoration(hintText: "0"),
+                    decoration: const InputDecoration(hintText: "0"),
                     style: Theme.of(context).textTheme.headline6,
                     keyboardType: TextInputType.number,
                     textAlign: TextAlign.center,
@@ -163,7 +163,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         color: Colors.grey.withOpacity(0.2), //color of shadow
                         spreadRadius: 5, //spread radius
                         blurRadius: 7, // blur radius
-                        offset: Offset(0, 2), // changes position of shadow
+                        offset: const Offset(0, 2), // changes position of shadow
                         //first paramerter of offset is left-right
                         //second parameter is top to down
                       ),
@@ -178,7 +178,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         FocusScope.of(context).nextFocus();
                       }
                     },
-                    decoration: InputDecoration(hintText: "0"),
+                    decoration: const InputDecoration(hintText: "0"),
                     style: Theme.of(context).textTheme.headline6,
                     keyboardType: TextInputType.number,
                     textAlign: TextAlign.center,
@@ -197,7 +197,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         color: Colors.grey.withOpacity(0.2), //color of shadow
                         spreadRadius: 5, //spread radius
                         blurRadius: 7, // blur radius
-                        offset: Offset(0, 2), // changes position of shadow
+                        offset: const Offset(0, 2), // changes position of shadow
                         //first paramerter of offset is left-right
                         //second parameter is top to down
                       ),
@@ -212,7 +212,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         FocusScope.of(context).nextFocus();
                       }
                     },
-                    decoration: InputDecoration(hintText: "0"),
+                    decoration: const InputDecoration(hintText: "0"),
                     style: Theme.of(context).textTheme.headline6,
                     keyboardType: TextInputType.number,
                     textAlign: TextAlign.center,
@@ -231,7 +231,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         color: Colors.grey.withOpacity(0.2), //color of shadow
                         spreadRadius: 5, //spread radius
                         blurRadius: 7, // blur radius
-                        offset: Offset(0, 2), // changes position of shadow
+                        offset: const Offset(0, 2), // changes position of shadow
                         //first paramerter of offset is left-right
                         //second parameter is top to down
                       ),
@@ -246,7 +246,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         FocusScope.of(context).nextFocus();
                       }
                     },
-                    decoration: InputDecoration(hintText: "0"),
+                    decoration: const InputDecoration(hintText: "0"),
                     style: Theme.of(context).textTheme.headline6,
                     keyboardType: TextInputType.number,
                     textAlign: TextAlign.center,
@@ -272,8 +272,8 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
               children: [
                 Row(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 8.0),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 8.0),
                       child: Text("Resend Code in",style:
                       TextStyle(
                         color: Colors.black,
@@ -283,7 +283,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                       )
                       ),
                     ),
-                    Text("10 seconds",style:
+                    const Text("10 seconds",style:
                     TextStyle(
                       color: Colors.green,
                       fontSize: 12,
@@ -310,7 +310,7 @@ class _ForgotOptFormState extends State<ForgotOptForm> {
                         //you can set more BoxShadow() here
                       ],
                     ),
-                    child: Icon(Icons.arrow_forward_sharp,size: 18,),
+                    child: const Icon(Icons.arrow_forward_sharp,size: 18,),
                   ),
                 )
               ],

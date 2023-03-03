@@ -21,21 +21,21 @@ class _ChatMessageState extends State<ChatMessage> {
         height: 200,
           // width: MediaQuery.of(context).size.width,
           decoration:
-          BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
+          const BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
           child: Column(
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 25.0, left: 8),
                 child: Row(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
                       child: Icon(
                         Icons.arrow_back,
                         color: Colors.white,
                       ),
                     ),
-                    Text(
+                    const Text(
                       "Back",
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -60,10 +60,10 @@ class _ChatMessageState extends State<ChatMessage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        SizedBox(
+                        const SizedBox(
                           height: 20,
                         ),
-                        Center(
+                        const Center(
                           child: Text("TODAY",style: TextStyle(
                             fontWeight: FontWeight.bold,
                            // color: Colors.black
@@ -77,16 +77,16 @@ class _ChatMessageState extends State<ChatMessage> {
                               child: Container(
                                 height: 55,
                                 width: 300,
-                                padding: EdgeInsets.all(10),
+                                padding: const EdgeInsets.all(10),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
-                                    Text("Lorem Ipsum is simply dummy"),
-                                    Text("text of the printin")
+                                    const Text("Lorem Ipsum is simply dummy"),
+                                    const Text("text of the printin")
                                   ],
                                 ),
 
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   color: Colors.black12,
                                   borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(16),
@@ -97,8 +97,8 @@ class _ChatMessageState extends State<ChatMessage> {
 
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 8.0,top: 55),
+                            const Padding(
+                              padding: EdgeInsets.only(left: 8.0,top: 55),
                               child: Text("3:15 PM",style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 13
@@ -110,8 +110,8 @@ class _ChatMessageState extends State<ChatMessage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
-                            Padding(
-                              padding: const EdgeInsets.only(left: 8.0,top: 55),
+                            const Padding(
+                              padding: EdgeInsets.only(left: 8.0,top: 55),
                               child: Text("3:15 PM",style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 13
@@ -122,16 +122,16 @@ class _ChatMessageState extends State<ChatMessage> {
                               child: Container(
                                 height: 55,
                                 width: 300,
-                                padding: EdgeInsets.all(10),
+                                padding: const EdgeInsets.all(10),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
-                                    Text("Lorem Ipsum is simply dummy"),
-                                    Text("text of the printin")
+                                    const Text("Lorem Ipsum is simply dummy"),
+                                    const Text("text of the printin")
                                   ],
                                 ),
 
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                     color: Colors.green,
                                     borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(16),
@@ -145,7 +145,7 @@ class _ChatMessageState extends State<ChatMessage> {
 
                           ],
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 300,
                         ),
                         Padding(
@@ -153,7 +153,7 @@ class _ChatMessageState extends State<ChatMessage> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Type a message",style: TextStyle(
+                              const Text("Type a message",style: TextStyle(
                                 fontSize: 14
                               ),),
                               Container(
@@ -162,13 +162,13 @@ class _ChatMessageState extends State<ChatMessage> {
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text("Send",style: TextStyle(
+                                    const Text("Send",style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 14,
                                       color: Colors.white
                                     ),),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 8.0),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 8.0),
                                       child: Icon(Icons.send,color: Colors.white,
                                       size: 15,
                                       ),

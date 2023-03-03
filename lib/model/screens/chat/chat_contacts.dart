@@ -19,15 +19,15 @@ class _ChatContactState extends State<ChatContact> {
       height: 200,
         // width: MediaQuery.of(context).size.width,
         decoration:
-        BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
+        const BoxDecoration(color: Colors.green, borderRadius: BorderRadius.only()),
         child: Column(
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 25.0, left: 8),
               child: Row(
-                children: [
+                children: const [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.arrow_back,
                       color: Colors.white,
@@ -58,7 +58,7 @@ class _ChatContactState extends State<ChatContact> {
                       Padding(
                         padding: const EdgeInsets.only(left: 12.0,top: 30),
                         child: Row(
-                          children: [
+                          children: const [
 
                             Icon(Icons.search_outlined,
                               color:Colors.black,
@@ -77,7 +77,7 @@ class _ChatContactState extends State<ChatContact> {
                           ],
                         ),
                       ),
-                   SizedBox(
+                   const SizedBox(
                      height:18,
                    ),
                  Container(
@@ -103,8 +103,8 @@ class _ChatContactState extends State<ChatContact> {
                                    ),
                                  ),
                                ),
-                               Padding(
-                                 padding: const EdgeInsets.only(left: 8.0,top: 25),
+                               const Padding(
+                                 padding: EdgeInsets.only(left: 8.0,top: 25),
                                  child: Text("Laney Gray",
                                    style: TextStyle(
                                    fontSize:14,
@@ -114,16 +114,16 @@ class _ChatContactState extends State<ChatContact> {
                              ],
                            ),
 
-                           Padding(
-                             padding: const EdgeInsets.only(top: 27.0,right: 20),
+                           const Padding(
+                             padding: EdgeInsets.only(top: 27.0,right: 20),
                              child: Text("5:15 PM"),
                            )
 
                          ],
                        ),
 
-                       Padding(
-                         padding: const EdgeInsets.only(right: 74.0),
+                       const Padding(
+                         padding: EdgeInsets.only(right: 74.0),
                          child: Text("Lorem Ipsum is simply dummy",style: TextStyle(
                            fontSize: 14.4,
 
@@ -132,7 +132,7 @@ class _ChatContactState extends State<ChatContact> {
                      ],
                    ),
                  ),
-                      Divider(height: 1, thickness: 1, color: Colors.black54),
+                      const Divider(height: 1, thickness: 1, color: Colors.black54),
                       Container(
                         height: 90,
                         width: MediaQuery.of(context).size.width,
@@ -156,8 +156,8 @@ class _ChatContactState extends State<ChatContact> {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 8.0,top: 25),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 8.0,top: 25),
                                       child: Text("Laney Gray",
                                         style: TextStyle(
                                           fontSize:14,
@@ -167,15 +167,15 @@ class _ChatContactState extends State<ChatContact> {
                                   ],
                                 ),
 
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 27.0,right: 20),
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 27.0,right: 20),
                                   child: Text("5:15 PM"),
                                 )
 
                               ],
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 74.0),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 74.0),
                               child: Text("Lorem Ipsum is simply dummy",style: TextStyle(
                                 fontSize: 14.4,
 
@@ -184,7 +184,7 @@ class _ChatContactState extends State<ChatContact> {
                           ],
                         ),
                       ),
-                      Divider(height: 1, thickness: 1, color: Colors.black54),
+                      const Divider(height: 1, thickness: 1, color: Colors.black54),
                       Container(
                         height: 90,
                         width: MediaQuery.of(context).size.width,
@@ -208,8 +208,8 @@ class _ChatContactState extends State<ChatContact> {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 8.0,top: 25),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 8.0,top: 25),
                                       child: Text("Laney Gray",
                                         style: TextStyle(
                                           fontSize:14,
@@ -219,15 +219,15 @@ class _ChatContactState extends State<ChatContact> {
                                   ],
                                 ),
 
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 27.0,right: 20),
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 27.0,right: 20),
                                   child: Text("5:15 PM"),
                                 )
 
                               ],
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 74.0),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 74.0),
                               child: Text("Lorem Ipsum is simply dummy",style: TextStyle(
                                 fontSize: 14.4,
 
@@ -236,7 +236,7 @@ class _ChatContactState extends State<ChatContact> {
                           ],
                         ),
                       ),
-                      Divider(height: 1, thickness: 1, color: Colors.black54),
+                      const Divider(height: 1, thickness: 1, color: Colors.black54),
                       Container(
                         height: 90,
                         width: MediaQuery.of(context).size.width,
@@ -260,8 +260,8 @@ class _ChatContactState extends State<ChatContact> {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 8.0,top: 25),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 8.0,top: 25),
                                       child: Text("Laney Gray",
                                         style: TextStyle(
                                           fontSize:14,
@@ -271,15 +271,15 @@ class _ChatContactState extends State<ChatContact> {
                                   ],
                                 ),
 
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 27.0,right: 20),
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 27.0,right: 20),
                                   child: Text("5:15 PM"),
                                 )
 
                               ],
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 74.0),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 74.0),
                               child: Text("Lorem Ipsum is simply dummy",style: TextStyle(
                                 fontSize: 14.4,
 
@@ -288,7 +288,7 @@ class _ChatContactState extends State<ChatContact> {
                           ],
                         ),
                       ),
-                      Divider(height: 1, thickness: 1, color: Colors.black54),
+                      const Divider(height: 1, thickness: 1, color: Colors.black54),
                       Container(
                         height: 90,
                         width: MediaQuery.of(context).size.width,
@@ -312,8 +312,8 @@ class _ChatContactState extends State<ChatContact> {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 8.0,top: 25),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 8.0,top: 25),
                                       child: Text("Laney Gray",
                                         style: TextStyle(
                                           fontSize:14,
@@ -323,15 +323,15 @@ class _ChatContactState extends State<ChatContact> {
                                   ],
                                 ),
 
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 27.0,right: 20),
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 27.0,right: 20),
                                   child: Text("5:15 PM"),
                                 )
 
                               ],
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 74.0),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 74.0),
                               child: Text("Lorem Ipsum is simply dummy",style: TextStyle(
                                 fontSize: 14.4,
 
